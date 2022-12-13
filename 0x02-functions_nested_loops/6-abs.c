@@ -10,11 +10,11 @@ int _abs(int a)
 	int abs_number;
 
 	if (a > 0)
-		abs_number = 1(a);
+		abs_number = a;
 	if (a < 0)
-		abs_number = -1(a);
-	if (n == 0)
+		abs_number = -(a);
+	if (a == 0)
 		abs_number = 0;
 
-	return (0);
+	return (abs_number);
 }
