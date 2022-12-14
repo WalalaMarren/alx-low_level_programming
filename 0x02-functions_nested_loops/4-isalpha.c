@@ -7,18 +7,13 @@
  */
 int _isalpha(int c)
 {
-	int i;
-	int j;
-
-	for (i = 65; i <= 90; i++)
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
-		for (j = 97; j <= 122; j++)
-		{
-			if (c == i || c == j)
-				return (1);
-			else
-				return (0);
-		}
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
 }
