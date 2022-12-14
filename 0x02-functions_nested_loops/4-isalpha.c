@@ -7,24 +7,17 @@
  */
 int _isalpha(int c)
 {
-	int j;
 	int i;
-	int val;
-	val = 0;
+	int j;
 
-	for (j = 97; j <= 122; j++)
+	for (i = 65; i <= 90; i++)
 	{
-		for (i = 65; i <= 90; i++)
+		for (j = 97; j <= 122; j++)
 		{
 			if (c == i || c == j)
-			{
-				val += 1;
-			}
+				return (1);
 			else
-			{
-				val = 0;
-			}
-			return (val);
+				return (0);
 		}
 	}
 	return (0);
