@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <ctype.h>
 /**
  * _isdigit - Entry point
  * @c: input integer
@@ -8,14 +8,8 @@
  */
 int _isdigit(int c)
 {
-	int i;
-
-	for (i = 48; i <= 57; i++)
-	{
-		if (c == i)
-			return (1);
-		else
-			return (0);
-	}
-	return (0);
+	if (c >= 48 && c <= 58)
+		return (1);
+	else
+		return (0);
 }
