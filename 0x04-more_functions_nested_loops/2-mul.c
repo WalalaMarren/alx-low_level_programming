@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul: Entry point
+ * mul - Entry point
  * @a: Input integer
  * @b: input integer
  * Return: Always 0
