@@ -7,11 +7,11 @@
  */
 void _puts(char *str)
 {
-	int count;
+	int count = 0;
 
 	while (*str != '\0')
 	{
-		count++;
+		count += 1;
 	}
 	return (count);
 }
