@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
+
 /**
  * _puts - Entry point
  * @str: input integer
@@ -12,7 +12,6 @@ void _puts(char *str)
 	while (*str != '\0')
 	{
 		printf("%c", *str++);
-		str++
 	}
 	printf("\n");
 }
