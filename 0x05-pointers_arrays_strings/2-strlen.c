@@ -5,11 +5,11 @@
  *
  * Return: Always 0
  */
-void _puts(char *str)
+int _strlen(char *s);
 {
 	int count = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
 		count += 1;
 	}
