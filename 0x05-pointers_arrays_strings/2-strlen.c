@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _puts - entry poin
- * @str: character input
+ * _strlen - entry point
+ * @s: input character
  *
  * Return: Always 0
  */
