@@ -9,6 +9,9 @@
  */
 void _puts(char *str)
 {
-	while (*str != '\0')
+	int count = 0;
+	
+	while (*(str + count) != '\0')
 		puts(*str);
+	count++;
 }
