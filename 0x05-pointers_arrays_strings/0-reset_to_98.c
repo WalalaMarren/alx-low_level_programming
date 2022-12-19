@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * reset_to_98: Entry point
+ * reset_to_98 - Entry point
  * @n: pointer to a variable of type int
  *
  * Return: Always 0 (Success)
