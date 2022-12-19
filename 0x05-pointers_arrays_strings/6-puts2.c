@@ -7,14 +7,17 @@
  */
 void puts2(char *str)
 {
-	while (*str != '\0')
+	int count = 0;
+
+	while (count >= 0)
 	{
-		if (*str % 2 != 0)
+		if (str[count] == '\0')
 		{
-			continue;
+			_putchar('\n');
+			break;
 		}
-		printf("%c", *str);
-		str += 2;
+		if (count % 2 == 0)
+			_putchar(str[count]);
+		count++;
 	}
-	printf("\n");
 }
