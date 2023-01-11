@@ -5,6 +5,7 @@
   *alloc_grid - entry point
   *@width:input integer
   *@height: input integer
+  *Return: always 0
   */
 int **alloc_grid(int width, int height)
 {
